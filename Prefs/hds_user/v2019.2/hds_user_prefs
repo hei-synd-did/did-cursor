@@ -1140,6 +1140,10 @@ first "Notepad++"
 second "notepad++.exe \"%(p)\" -n%(l)"
 )
 (pair
+first "Sublime Text"
+second "subl.exe \"%(p)\""
+)
+(pair
 first "Textpad 3.2"
 second "txtpad32.exe \"%(p)(%(l))\""
 )
@@ -1182,6 +1186,10 @@ first "Notepad++"
 second "notepad++.exe \"%(p)\" -n%(l) -ro"
 )
 (pair
+first "Sublime Text"
+second "subl.exe \"%(p)\""
+)
+(pair
 first "Textpad 3.2"
 second "txtpad32.exe -r \"%(p)(%(l))\""
 )
@@ -1203,6 +1211,8 @@ win32DefaultEditor "Notepad++"
 win32DefaultViewer "Notepad++"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
+defaultLanguage 11
+defaultVhdlDialect 11
 defaultVerilogDialect 5
 verilogSearchPath ""
 syscUserIncPath ""
@@ -1228,7 +1238,6 @@ verilogDefaultSaveName "untitled"
 vhdlDefaultSaveName "untitled"
 toolbarVisibility [
 "BdWindow:FormatText"
-"SymbolWindow:FormatText"
 "AsmWindow:FormatText"
 "FcWindow:FormatText"
 "StdWindow:FormatText"
@@ -1272,14 +1281,12 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\projects\\Cursor_trial\\Prefs\\cursor.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\eln_labs.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\hds.hdp"
-"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
-"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\hds.hdp"
-"C:\\work\\edu\\eln\\project\\eln_cursor\\Prefs\\hds.hdp"
-"C:\\work\\eln\\project\\eln_cursor\\Prefs\\hds.hdp"
-"C:\\dev\\did-cursor\\Prefs\\hds.hdp"
-"C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\hds.hdp"
-"C:\\dev\\DiD\\did-cursor\\Prefs\\hds.hdp"
+"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\work\\edu\\eln\\project\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\dev\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\dev\\did-chrono\\Prefs\\hds.hdp"
+"C:\\dev\\DiD\\did-chrono\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -1518,7 +1525,7 @@ width 816
 height 1161
 )
 (PageSizeInfo
-name "Format papier personnalisé"
+name "Format papier personnalisï¿½"
 type 256
 width 783
 height 1013
@@ -1674,9 +1681,13 @@ second "concatenated"
 defaultCategoryTemplates [
 1
 "architecture.vhd"
+3
+"combined.vhd"
 ]
 defaultCategoryTemplatesPrefs [
 1
+0
+3
 0
 ]
 tasksOrder [
@@ -4292,7 +4303,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x545+-1492+-36"
+logWindowGeometry "622x780+619+117"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6250,7 +6261,16 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "Chronometer_test"
+name "<Empty>"
+showingHierarchy 0
+openLibs [
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "<Empty>"
 showingHierarchy 0
 openLibs [
 ]
@@ -6269,20 +6289,20 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "Cursor"
+name "Chronometer"
 showingHierarchy 0
 openLibs [
-"Cursor"
+"Chronometer"
 ]
 declHierarchy [
 ]
 activeViewpointIdx 0
 )
 (WorkTab
-name "Cursor_test"
+name "Chronometer_test"
 showingHierarchy 0
 openLibs [
-"Cursor_test"
+"Chronometer_test"
 ]
 declHierarchy [
 ]
@@ -6306,7 +6326,7 @@ SplitterClientPrefs [
 (SplitterPreference
 hidden 0
 expand 0
-size 180
+size 190
 )
 ]
 displayHierarchy 0
@@ -6315,17 +6335,18 @@ yPos -251
 width 1936
 height 1048
 activeSidePanelTab 2
-activeLibraryTab 2
-sidePanelSize 278
+activeLibraryTab 1
+sidePanelSize 293
 showUnixHiddenFiles 0
-componentBrowserXpos 2489
-componentBrowserYpos 276
+componentBrowserXpos 569
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
-"gates"
-"sequential"
 "Common"
+"gates"
+"Chronometer"
+"sequential"
+"Lattice"
 ]
 )
 (SmPreferences
@@ -6409,6 +6430,8 @@ display "State Register Statements"
 status 1
 )
 ]
+vhdlScalarType "std_ulogic"
+vhdlVectorType "std_ulogic_vector"
 clockNameVaSet (VaSet
 )
 clockShapeVaSet (VaSet
@@ -6438,6 +6461,7 @@ recoveryShapeVaSet (VaSet
 vasetType 1
 fg "65535,0,0"
 )
+rstLevel 1
 stateShapeVaSet (VaSet
 vasetType 1
 fg "0,65535,65535"
@@ -6571,7 +6595,7 @@ archConcurrentStatementBlockValueVaSet (VaSet
 )
 outputSignalStatus 1
 internalSignalStatus 2
-showPropsDlgMsg 1
+showPropsDlgMsg 0
 )
 (H2gPreferences
 filesAdded [
@@ -6772,7 +6796,7 @@ cptPortOutName "Out0"
 cptPortInOutName "InOut0"
 cptPortBufferName "Buffer0"
 groupName "Group0"
-cptPortVhdlType "unsigned"
+cptPortVhdlType "std_ulogic"
 cptPortVerilogType "wire"
 cptPortVhdlBounds "(15 DOWNTO 0)"
 cptPortVerilogLb "15"
