@@ -1287,6 +1287,7 @@ projectPaths [
 "C:\\dev\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\dev\\did-chrono\\Prefs\\hds.hdp"
 "C:\\dev\\DiD\\did-chrono\\Prefs\\hds.hdp"
+"C:\\dev\\DiD\\did-cursor\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -6292,7 +6293,6 @@ activeViewpointIdx 0
 name "Chronometer"
 showingHierarchy 0
 openLibs [
-"Chronometer"
 ]
 declHierarchy [
 ]
@@ -6302,7 +6302,26 @@ activeViewpointIdx 0
 name "Chronometer_test"
 showingHierarchy 0
 openLibs [
-"Chronometer_test"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Cursor"
+showingHierarchy 0
+openLibs [
+"Cursor"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Cursor_test"
+showingHierarchy 0
+openLibs [
+"Cursor_test"
 ]
 declHierarchy [
 ]
