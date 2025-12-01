@@ -792,23 +792,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb.info"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb.user"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -828,27 +828,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
 )
 (vvPair
 variable "date"
-value "19.01.2024"
+value "01.12.2025"
 )
 (vvPair
 variable "day"
-value "ven."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "19"
+value "01"
 )
 (vvPair
 variable "designName"
@@ -876,11 +876,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "remy.borgeat"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "19.01.2024"
+value "01.12.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -888,11 +888,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE10993"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:06:03"
+value "14:41:51"
 )
 (vvPair
 variable "group"
@@ -900,7 +900,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE10993"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -932,7 +932,7 @@ value "D:\\Users\\Syslo\\Chronometer\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "01"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -940,19 +940,19 @@ value "cursorCircuit"
 )
 (vvPair
 variable "month"
-value "janv."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\symbol.sb"
+value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -1028,7 +1028,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:06:03"
+value "14:41:51"
 )
 (vvPair
 variable "unit"
@@ -1036,7 +1036,7 @@ value "cursorCircuit"
 )
 (vvPair
 variable "user"
-value "remy.borgeat"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -1048,11 +1048,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -2655,8 +2655,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "61,37,1386,886"
-viewArea "-1100,-1100,76320,50350"
+windowSize "-1635,-122,-308,727"
+viewArea "-1100,-1100,75830,47410"
 cachedDiagramExtent "0,0,73000,49000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -2943,8 +2943,8 @@ xt "0,9900,0,9900"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 939,0
+lastUid 987,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
-activeModelName "Symbol"
+activeModelName "Symbol:GEN"
 )

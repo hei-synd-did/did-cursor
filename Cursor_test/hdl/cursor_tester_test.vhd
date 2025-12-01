@@ -1,3 +1,12 @@
+LIBRARY std;
+  USE std.textio.ALL;
+
+LIBRARY ieee;
+  USE ieee.std_logic_textio.ALL;
+
+LIBRARY Common_test;
+  USE Common_test.testUtils.all;
+
 ARCHITECTURE test OF cursor_tester IS
 
   constant clockPeriod: time := 1.0/clockFrequency * 1 sec;
@@ -17,6 +26,8 @@ ARCHITECTURE test OF cursor_tester IS
   signal side2M: unsigned(pwmReadBitNb-1 downto 0);
   signal position: signed(pwmReadBitNb+voltageToSpeedBitNb-1 downto 0) := (others => '0');
   signal stepCount: unsigned(1 downto 0);
+
+  signal testInfo       : string(1 to 40) := (others => ' ');
 
 BEGIN
 
@@ -44,11 +55,13 @@ BEGIN
 
     sensor1 <= '0';
     sensor2 <= '0';
+    testInfo <= pad("Wait reset done", testInfo'length);
 
     wait for 0.1 ms;
     
      ----------------------------------------------------------------------------
                                                     -- restart
+    testInfo <= pad("Restart", testInfo'length);
     restart <= '1', '0' after buttonsPulseWidth;
     wait for 0.25 ms;
     sensor1 <= '1', '0' after buttonsPulseWidth;
@@ -56,21 +69,31 @@ BEGIN
 
     ----------------------------------------------------------------------------
                                                   -- advance to first stop point
+    testInfo <= pad("Go to stop point 1", testInfo'length);
     go1 <= '1', '0' after buttonsPulseWidth;
+    wait until motorOn = '1';
+    wait until motorOn = '0';
     wait for 2 ms;
 
     ----------------------------------------------------------------------------
                                                  -- advance to second stop point
+    testInfo <= pad("Go to stop point 2", testInfo'length);
     go2 <= '1', '0' after buttonsPulseWidth;
+    wait until motorOn = '1';
+    wait until motorOn = '0';
     wait for 2 ms;
 
     ----------------------------------------------------------------------------
                                                   -- go back to first stop point
+    testInfo <= pad("Go back to stop point 1", testInfo'length);
     go1 <= '1', '0' after buttonsPulseWidth;
+    wait until motorOn = '1';
+    wait until motorOn = '0';
     wait for 2 ms;
 
     ----------------------------------------------------------------------------
                                               -- back to start with sensor reset
+    testInfo <= pad("Back to start with sensor reset", testInfo'length);
     restart <= '1', '0' after buttonsPulseWidth;
     wait for 0.5 ms;
     sensor1 <= '1', '0' after buttonsPulseWidth;
@@ -78,11 +101,15 @@ BEGIN
 
     ----------------------------------------------------------------------------
                                                  -- advance to second stop point
+    testInfo <= pad("Go to stop point 2", testInfo'length);
     go2 <= '1', '0' after buttonsPulseWidth;
+    wait until motorOn = '1';
+    wait until motorOn = '0';
     wait for 3 ms;
 
     ----------------------------------------------------------------------------
                                               -- back to start with counter stop
+    testInfo <= pad("Back to start with counter stop", testInfo'length);
     restart <= '1', '0' after buttonsPulseWidth;
     wait for 2 ms;
     sensor1 <= '1', '0' after buttonsPulseWidth;
@@ -94,9 +121,18 @@ BEGIN
 
     ----------------------------------------------------------------------------
                                                   -- advance to first stop point
+    testInfo <= pad("Go to stop point 1 - test mode OFF", testInfo'length);
     go1 <= '1', '0' after buttonsPulseWidth;
+    wait until motorOn = '1';
+    wait until motorOn = '0';
     wait for 2 ms;
 
+    -- End of tests
+    testInfo <= pad("Wait reset done", testInfo'length);
+    wait for 2 ms;
+    assert false
+      report "End of simulation"
+      severity failure;
     wait;
   end process;
 
@@ -129,7 +165,7 @@ BEGIN
   --
   count: process (sClock)
   begin
-    if motorOn = '1' then
+    if motorOn = '1' and (side1 = '1' or side2 = '1') then
       if testMode_int = '0' then
         position <= position + to_integer(side1M) - to_integer(side2M);
       else

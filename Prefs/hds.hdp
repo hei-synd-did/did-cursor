@@ -3,6 +3,7 @@ Board = $HDS_PROJECT_DIR/../Board/concat
 [ModelSim]
 Board = $SCRATCH_DIR/Board/work
 Common = $SCRATCH_DIR/Common/work
+Common_test = C:\dev\DiD\did-cursor\Libs\Common_test\work
 Cursor = $SCRATCH_DIR/Cursor/work
 Cursor_test = $SCRATCH_DIR/Cursor_test/work
 gates = $SCRATCH_DIR/gates/work
@@ -16,6 +17,7 @@ sequential = $SCRATCH_DIR/sequential/work
 [hdl]
 Board = $HDS_PROJECT_DIR/../Board/hdl
 Common = $HEI_LIBS_DIR/Common/hdl
+Common_test = C:\dev\DiD\did-cursor\Libs\Common_test\hdl
 Cursor = $HDS_PROJECT_DIR/../Cursor/hdl
 Cursor_test = $HDS_PROJECT_DIR/../Cursor_test/hdl
 gates = $HEI_LIBS_DIR/Gates/hdl
@@ -31,6 +33,7 @@ std = $HDS_HOME/hdl_libs/std/hdl
 [hds]
 Board = $HDS_PROJECT_DIR/../Board/hds
 Common = $HEI_LIBS_DIR/Common/hds
+Common_test = C:\dev\DiD\did-cursor\Libs\Common_test\hds
 Cursor = $HDS_PROJECT_DIR/../Cursor/hds
 Cursor_test = $HDS_PROJECT_DIR/../Cursor_test/hds
 gates = $HEI_LIBS_DIR/Gates/hds
@@ -45,8 +48,11 @@ sequential = $HEI_LIBS_DIR/Sequential/hds
 std = $HDS_HOME/hdl_libs/std/hds
 [hds_settings]
 design_root = Board.FPGA_cursor(struct)@f@p@g@a_cursor/struct.bd
+[library_files_inclusion]
+Common_test = all
 [library_type]
 Board = regular
+Common_test = regular
 ieee = standard
 std = standard
 [shared]
