@@ -534,19 +534,19 @@ value "C:\\dev\\DiD\\did-cursor\\Prefs\\..\\Board\\hds\\EBS3"
 )
 (vvPair
 variable "date"
-value "01.12.2025"
+value "03.12.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "01"
+value "03"
 )
 (vvPair
 variable "entity_name"
@@ -574,7 +574,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "01.12.2025"
+value "03.12.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -586,7 +586,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:59:24"
+value "08:30:22"
 )
 (vvPair
 variable "group"
@@ -662,7 +662,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:59:24"
+value "08:30:22"
 )
 (vvPair
 variable "unit"
@@ -6243,8 +6243,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,28000,15300,29000"
-st "reset_n       : std_ulogic
-"
+st "reset_n       : std_ulogic"
 )
 )
 *188 (Net
@@ -6260,8 +6259,7 @@ uid 1181,0
 va (VaSet
 )
 xt "4000,57400,23100,58600"
-st "SIGNAL clock_sys     : std_ulogic
-"
+st "SIGNAL clock_sys     : std_ulogic"
 )
 )
 *189 (Net
@@ -6278,8 +6276,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,29000,15500,30000"
-st "restart_n     : std_uLogic
-"
+st "restart_n     : std_uLogic"
 )
 )
 *190 (Net
@@ -6296,8 +6293,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,72200,19000,73200"
-st "SIGNAL resetSynch    : std_ulogic
-"
+st "SIGNAL resetSynch    : std_ulogic"
 )
 )
 *191 (Net
@@ -6314,8 +6310,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,31000,16000,32000"
-st "sensor2_n     : std_uLogic
-"
+st "sensor2_n     : std_uLogic"
 )
 )
 *192 (Net
@@ -6332,8 +6327,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,66400,19300,67400"
-st "SIGNAL go1Synch      : std_uLogic
-"
+st "SIGNAL go1Synch      : std_uLogic"
 )
 )
 *193 (Net
@@ -6349,8 +6343,7 @@ uid 1193,0
 va (VaSet
 )
 xt "4000,21000,18900,22200"
-st "button4_n     : std_uLogic
-"
+st "button4_n     : std_uLogic"
 )
 )
 *194 (Net
@@ -6367,8 +6360,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,26000,15600,27000"
-st "go1_n         : std_uLogic
-"
+st "go1_n         : std_uLogic"
 )
 )
 *195 (Net
@@ -6385,8 +6377,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,74200,18300,75200"
-st "SIGNAL restart       : std_uLogic
-"
+st "SIGNAL restart       : std_uLogic"
 )
 )
 *196 (Net
@@ -6403,8 +6394,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,78200,18800,79200"
-st "SIGNAL sensor2       : std_uLogic
-"
+st "SIGNAL sensor2       : std_uLogic"
 )
 )
 *197 (Net
@@ -6421,8 +6411,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,69400,18300,70400"
-st "SIGNAL logic1        : std_uLogic
-"
+st "SIGNAL logic1        : std_uLogic"
 )
 )
 *198 (Net
@@ -6439,8 +6428,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,39000,15200,40000"
-st "LED2          : std_ulogic
-"
+st "LED2          : std_ulogic"
 )
 )
 *199 (Net
@@ -6457,8 +6445,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,68400,19300,69400"
-st "SIGNAL go2Synch      : std_uLogic
-"
+st "SIGNAL go2Synch      : std_uLogic"
 )
 )
 *200 (Net
@@ -6475,8 +6462,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,27000,15600,28000"
-st "go2_n         : std_uLogic
-"
+st "go2_n         : std_uLogic"
 )
 )
 *201 (Net
@@ -6493,8 +6479,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,79200,19700,80200"
-st "SIGNAL sensor2Synch  : std_uLogic
-"
+st "SIGNAL sensor2Synch  : std_uLogic"
 )
 )
 *202 (Net
@@ -6510,8 +6495,7 @@ uid 1211,0
 va (VaSet
 )
 xt "4000,56200,24400,57400"
-st "SIGNAL button4Synch  : std_uLogic
-"
+st "SIGNAL button4Synch  : std_uLogic"
 )
 )
 *203 (Net
@@ -6528,8 +6512,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,75200,19200,76200"
-st "SIGNAL restartSynch  : std_uLogic
-"
+st "SIGNAL restartSynch  : std_uLogic"
 )
 )
 *204 (Net
@@ -6546,8 +6529,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,44000,15200,45000"
-st "side2         : std_uLogic
-"
+st "side2         : std_uLogic"
 )
 )
 *205 (Net
@@ -6564,8 +6546,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,43000,15200,44000"
-st "side1         : std_uLogic
-"
+st "side1         : std_uLogic"
 )
 )
 *206 (Net
@@ -6582,8 +6563,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,73200,19400,74200"
-st "SIGNAL resetSynch_n  : std_ulogic
-"
+st "SIGNAL resetSynch_n  : std_ulogic"
 )
 )
 *207 (Net
@@ -6600,8 +6580,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,38000,15400,39000"
-st "LED1          : std_uLogic
-"
+st "LED1          : std_uLogic"
 )
 )
 *208 (Net
@@ -6618,8 +6597,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,71200,18100,72200"
-st "SIGNAL reset         : std_ulogic
-"
+st "SIGNAL reset         : std_ulogic"
 )
 )
 *209 (Net
@@ -6637,8 +6615,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,81200,29300,82200"
-st "SIGNAL testOut       : std_uLogic_vector(1 TO testLineNb)
-"
+st "SIGNAL testOut       : std_uLogic_vector(1 TO testLineNb)"
 )
 )
 *210 (Net
@@ -6655,8 +6632,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,67400,18400,68400"
-st "SIGNAL go2           : std_uLogic
-"
+st "SIGNAL go2           : std_uLogic"
 )
 )
 *211 (Net
@@ -6673,8 +6649,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,80200,18600,81200"
-st "SIGNAL setPoint      : std_uLogic
-"
+st "SIGNAL setPoint      : std_uLogic"
 )
 )
 *212 (Net
@@ -6691,8 +6666,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,76200,18800,77200"
-st "SIGNAL sensor1       : std_uLogic
-"
+st "SIGNAL sensor1       : std_uLogic"
 )
 )
 *213 (Net
@@ -6709,8 +6683,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,77200,19700,78200"
-st "SIGNAL sensor1Synch  : std_uLogic
-"
+st "SIGNAL sensor1Synch  : std_uLogic"
 )
 )
 *214 (Net
@@ -6727,8 +6700,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,65400,18400,66400"
-st "SIGNAL go1           : std_uLogic
-"
+st "SIGNAL go1           : std_uLogic"
 )
 )
 *215 (Net
@@ -6745,8 +6717,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,60400,20000,61400"
-st "SIGNAL encoderASynch : std_uLogic
-"
+st "SIGNAL encoderASynch : std_uLogic"
 )
 )
 *216 (Net
@@ -6763,8 +6734,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,61400,19100,62400"
-st "SIGNAL encoderB      : std_uLogic
-"
+st "SIGNAL encoderB      : std_uLogic"
 )
 )
 *217 (Net
@@ -6780,8 +6750,7 @@ uid 1241,0
 va (VaSet
 )
 xt "4000,32000,18700,33200"
-st "LCD_A0        : std_ulogic
-"
+st "LCD_A0        : std_ulogic"
 )
 )
 *218 (Net
@@ -6798,8 +6767,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,24000,16300,25000"
-st "encoderB_n    : std_uLogic
-"
+st "encoderB_n    : std_uLogic"
 )
 )
 *219 (Net
@@ -6815,8 +6783,7 @@ uid 1245,0
 va (VaSet
 )
 xt "4000,34400,19600,35600"
-st "LCD_RST_n     : std_ulogic
-"
+st "LCD_RST_n     : std_ulogic"
 )
 )
 *220 (Net
@@ -6833,8 +6800,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,59400,19100,60400"
-st "SIGNAL encoderA      : std_uLogic
-"
+st "SIGNAL encoderA      : std_uLogic"
 )
 )
 *221 (Net
@@ -6851,8 +6817,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,30000,16000,31000"
-st "sensor1_n     : std_uLogic
-"
+st "sensor1_n     : std_uLogic"
 )
 )
 *222 (Net
@@ -6869,8 +6834,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,42000,16000,43000"
-st "motorOn       : std_uLogic
-"
+st "motorOn       : std_uLogic"
 )
 )
 *223 (Net
@@ -6887,8 +6851,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,23000,16300,24000"
-st "encoderA_n    : std_uLogic
-"
+st "encoderA_n    : std_uLogic"
 )
 )
 *224 (Net
@@ -6904,8 +6867,7 @@ uid 1255,0
 va (VaSet
 )
 xt "4000,36800,18400,38000"
-st "LCD_SI        : std_ulogic
-"
+st "LCD_SI        : std_ulogic"
 )
 )
 *225 (Net
@@ -6922,8 +6884,7 @@ uid 1257,0
 va (VaSet
 )
 xt "4000,40000,26900,41200"
-st "LEDs          : std_uLogic_vector(1 TO 8)
-"
+st "LEDs          : std_uLogic_vector(1 TO 8)"
 )
 )
 *226 (Net
@@ -6939,8 +6900,7 @@ uid 1259,0
 va (VaSet
 )
 xt "4000,33200,19700,34400"
-st "LCD_CS1_n     : std_ulogic
-"
+st "LCD_CS1_n     : std_ulogic"
 )
 )
 *227 (Net
@@ -6956,8 +6916,7 @@ uid 1261,0
 va (VaSet
 )
 xt "4000,35600,19000,36800"
-st "LCD_SCL       : std_ulogic
-"
+st "LCD_SCL       : std_ulogic"
 )
 )
 *228 (Net
@@ -6974,8 +6933,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,62400,20000,63400"
-st "SIGNAL encoderBSynch : std_uLogic
-"
+st "SIGNAL encoderBSynch : std_uLogic"
 )
 )
 *229 (Net
@@ -6992,8 +6950,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,64400,19800,65400"
-st "SIGNAL encoderISynch : std_uLogic
-"
+st "SIGNAL encoderISynch : std_uLogic"
 )
 )
 *230 (Net
@@ -7010,8 +6967,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,25000,16100,26000"
-st "encoderI_n    : std_uLogic
-"
+st "encoderI_n    : std_uLogic"
 )
 )
 *231 (Net
@@ -7028,8 +6984,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "4000,63400,18900,64400"
-st "SIGNAL encoderI      : std_uLogic
-"
+st "SIGNAL encoderI      : std_uLogic"
 )
 )
 *232 (SaComponent
@@ -7468,8 +7423,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "4000,22200,18500,23000"
-st "clock         : std_ulogic
-"
+st "clock         : std_ulogic"
 )
 )
 *246 (SaComponent
@@ -7623,8 +7577,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "4000,70400,22000,71200"
-st "SIGNAL logic_0       : std_uLogic
-"
+st "SIGNAL logic_0       : std_uLogic"
 )
 )
 *252 (SaComponent
@@ -8097,8 +8050,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "4000,58600,22000,59400"
-st "SIGNAL enable        : std_ulogic
-"
+st "SIGNAL enable        : std_ulogic"
 )
 )
 *269 (PortIoOut
@@ -8159,8 +8111,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "4000,41200,18500,42000"
-st "heartbeat     : std_uLogic
-"
+st "heartbeat     : std_uLogic"
 )
 )
 *271 (SaComponent
@@ -12222,8 +12173,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-1928,-259,8,789"
-viewArea "-220,-1207,195079,100787"
+windowSize "-8,-8,1928,1160"
+viewArea "-282,-1224,167247,100785"
 cachedDiagramExtent "2000,0,210750,98800"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -12247,7 +12198,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 2194,0
+lastUid 2273,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
